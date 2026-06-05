@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f7fa;
+    max-width: 900px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #2c3e50;
+}
+
+.header p {
+    color: #666;
+}
+
+#stats {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background: #eef3f8;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.progress-container {
+    width: 100%;
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+#progressBar {
+    height: 20px;
+    width: 0%;
+    background: #28a745;
+    transition: width 0.5s ease;
+}
+
+#teamStatus {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#lastUpdated {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.user-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+    transform: scale(1.02);
+}
+
+.available-card {
+    border-left: 5px solid green;
+}
+
+.unavailable-card {
+    border-left: 5px solid red;
+}
+
+.available {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.unavailable {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.avatar {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #3498db;
+    color: white;
+    margin-right: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
